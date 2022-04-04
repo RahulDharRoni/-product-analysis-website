@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Dashboard from './Component/Dashboard/Dashboard';
+import Header from './Component/Header/Header';
+import HeroSection from './Component/Hero-Slider/HeroSection';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header></Header>
+      <Routes>
+        <Route path='/' element={<HeroSection></HeroSection>}></Route>
+        <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
+      </Routes>
+      <h1>This is a full landing page website!!</h1>
+
     </div>
+
   );
 }
 
