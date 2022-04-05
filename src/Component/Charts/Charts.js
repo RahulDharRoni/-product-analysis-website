@@ -19,7 +19,7 @@ const Charts = ({ charts }) => {
                 </LineChart>
 
             </div>
-            <div className='w=1/2 justify-center p-5'>
+            <div className='w=1/2 justify-center p-5 mx-auto'>
                 <h1 className='text-center font-bold text-3xl text-sky-800 py-4 mx-auto'>Bar Graph of Investment</h1>
                 <BarChart width={500} height={300} data={charts}>
                     {/* <Bar dataKey="sell" fill="#8884d8" /> */}
@@ -67,7 +67,8 @@ const Charts = ({ charts }) => {
                     <Legend />
                 </PieChart>
 
-            </div><div className='w=1/2 justify-center p-5 mx-auto'>
+            </div>
+            <div className='w=1/2 justify-center p-5 mx-auto'>
                 <h1 className='text-center font-bold text-3xl text-orange-600 py-4'>PercentAreaChart of Monthly finance</h1>
                 <AreaChart
                     width={500}

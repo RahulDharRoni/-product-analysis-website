@@ -25,7 +25,7 @@ const HeroSection = () => {
                 <h1 className='text-bold text-3xl font-bold font-sans text-orange-900 border p-4 text-center '>Customer Reviews </h1>
                 <div className='grid grid-cols-1 gap-6 m-12 md:grid-cols-3'>
                     {
-                        reviews.slice(0, 3).map(review => <Review review={review}></Review>)
+                        reviews.slice(0, 3).map(review => <Review key={review.name} review={review}></Review>)
                     }
                 </div>
             </section>

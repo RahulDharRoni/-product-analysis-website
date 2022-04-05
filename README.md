@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# RDR-Landing-Page for Apple Watch
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/programming-hero-web-course-4/product-analysis-website-RahulDharRoni).
 
 ## Available Scripts
 
