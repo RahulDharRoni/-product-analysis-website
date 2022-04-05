@@ -2,6 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/programming-hero-web-course-4/product-analysis-website-RahulDharRoni).
 
+Project OverView - 1) react , router , rechart install 2) custom Hook make and use Review page and home page 3) 4 Rechart make with API 5) NotFound 404 Page design and add 6) Responsive design 7) blogs question and answer 8) about page 10) deploy to the netlify 11) 6+ commit . 
 ## Available Scripts
 
 In the project directory, you can run:
