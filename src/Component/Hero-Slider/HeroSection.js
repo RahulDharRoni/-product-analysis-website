@@ -10,8 +10,8 @@ const HeroSection = () => {
     const [reviews, setReviews] = UseReviews();
     return (
         <div className='mx-auto'>
-            <section className='md:flex m-10 mx-auto'>
-                <div className=' w-8/12 p-10'>
+            <section className='md:flex md:m-10 mx-auto'>
+                <div className='md:w-8/12 p-10'>
                     <h1 className='md:text-6xl text-3xl font-bold'>Next Generation WATCH!</h1>
                     <h1 className='md:text-6xl text-3xl font-bold text-yellow-500 pt-3 font-serif'>BEST WATCH IN 2030</h1>
                     <p className='pt-4'>Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.</p>
