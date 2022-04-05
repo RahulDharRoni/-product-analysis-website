@@ -3,8 +3,8 @@ import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, LineChart,
 
 const Charts = ({ charts }) => {
     return (
-        <div className='m-4 grid grid-cols-1 md:grid-cols-2 justify-between'>
-            <div className='justify-center md:p-5 mx-auto'>
+        <div className='m-4 grid grid-cols-1 md:grid-cols-2 md:justify-between'>
+            <div className='md:justify-center md:p-5 md:mx-auto'>
                 <h1 className='text-center font-bold text-3xl text-red-600 py-4'>Line Graph of sell</h1>
                 <LineChart width={500} height={300} data={charts}>
 
@@ -19,7 +19,7 @@ const Charts = ({ charts }) => {
                 </LineChart>
 
             </div>
-            <div className='justify-center p-5 mx-auto'>
+            <div className='justify-center md:p-5 md:mx-auto'>
                 <h1 className='text-center font-bold text-3xl text-sky-800 py-4 mx-auto'>Bar Graph of Investment</h1>
                 <BarChart width={500} height={300} data={charts}>
                     <CartesianGrid stroke="#ccc" />
@@ -32,7 +32,7 @@ const Charts = ({ charts }) => {
                 </BarChart>
 
             </div>
-            <div className='justify-center p-5 mx-auto'>
+            <div className='justify-center md:p-5 md:mx-auto'>
                 <h1 className='text-center font-bold text-3xl text-cyan-800 py-4'>PieChart of financial income statement</h1>
                 <PieChart width={500} height={400}>
                     <Pie
